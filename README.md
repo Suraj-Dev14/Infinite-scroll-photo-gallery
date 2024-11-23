@@ -12,18 +12,18 @@
    ```bash
    cd photo-gallery
 
-4. **Install dependencies**:
+3. **Install dependencies**:
 
    ```bash
    npm install
 
-5. **Set up environment variables**:
+4. **Set up environment variables**:
 
-  Create a .env file in the root of your project and add your Unsplash API key:
+  Create a .env file in the root of your project and add your Unsplash API key
   
-    ```bash
-    REACT_APP_UNSPLASH_ACCESS_KEY=your_access_key_here
+   REACT_APP_UNSPLASH_ACCESS_KEY=your_access_key_here
 
-6. **Open your Browser**:
-  
-  Navigate to http://localhost:3000 in your web browser to view the application. 
+5. **Start react application**:
+   
+   ```bash
+   npm start
