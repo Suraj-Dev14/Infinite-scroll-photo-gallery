@@ -3,7 +3,7 @@
    Open your terminal and run the following command:
 
    ```bash
-   git clone https://github.com/Suraj-Dev14/photo-gallery.git
+   git clone https://github.com/Suraj-Dev14/Infinite-scroll-photo-gallery.git
 
 2. **Navigate into the project directory**:
 
