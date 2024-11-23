@@ -12,7 +12,7 @@ const ImageGallery = () => {
     const fetchImages = async () => {
         setLoading(true);
         try {
-            const response = await axios.get(`https://api.unsplash.com/photos/?client_id=${process.env.REACT_APP_UNSPLASH_ACCESS_KEY}&page=${pageRef.current}`);
+            const response = await axios.get(`https://api.unsplash.com/photos/?client_id=${"cK2PzZGd-xj91aWnorZLPJ84rZki7VgekNjzeiwWuW8"}&page=${pageRef.current}`);
             setImages((prevImages) => [...prevImages, ...response.data]);
             pageRef.current += 1;
         } catch (err) {
